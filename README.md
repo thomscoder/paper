@@ -5,6 +5,12 @@ A native Node.js addon for MacOS that boosts the clipboard (Apple Universal Clip
 - Read and write (to) the clipboard
 - Automate tasks on copy, with "plugins" (transcribe audio files, replace certain strings in texts, process images etc...)
 
+  
+
+https://github.com/user-attachments/assets/ed708bc8-5087-474e-93ef-ecb3b477bbbd
+
+
+
 ## Test it
 
 
