@@ -28,6 +28,13 @@ node examples/basic_usage.js
 
 Develop and replace with your own scripts
 
+## Available "plugins"
+
+Currently for my personal use I developed 
+- a audio transcription plugin
+- images extractor
+- text replacer (replace words in a text)
+
 ## Watch mode
 
-Watch mode to continuosly monitor!
+Watch mode to continuosly monitor and transform!
