@@ -1,0 +1,8 @@
+build
+.vscode
+node_modules
+clipboard_output
+models
+.DS_Store
+clipboard_history
+dist

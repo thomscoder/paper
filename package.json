@@ -1,0 +1,45 @@
+{
+  "name": "paper",
+  "version": "1.0.0",
+  "description": "Clipboard monitoring and manipulation tool",
+  "main": "./examples/basic_usage.js",
+  "bin": {
+    "paper": "./examples/basic_usage.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild",
+    "build": "pkg .",
+    "build:all": "pkg . --out-path=dist"
+  },
+  "pkg": {
+    "targets": [
+      "node18-linux-x64",
+      "node18-macos-x64",
+      "node18-win-x64"
+    ],
+    "outputPath": "dist",
+    "assets": [
+      "build/**/*",
+      "plugins/**/*"
+    ]
+  },
+  "keywords": [
+    "clipboard",
+    "monitor",
+    "text-replacement",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "extract-colors": "^4.1.1",
+    "get-pixels": "^3.3.3",
+    "node-addon-api": "^8.3.0",
+    "nodejs-whisper": "^0.2.6"
+  },
+  "devDependencies": {
+    "node-gyp": "^11.0.0",
+    "pkg": "^5.8.1"
+  }
+}
