@@ -10,6 +10,9 @@ A native Node.js addon for MacOS that boosts the clipboard (Apple Universal Clip
 https://github.com/user-attachments/assets/ed708bc8-5087-474e-93ef-ecb3b477bbbd
 
 
+# Why?
+There were moments in which I received whatsapp audios and I could not listen to them, so why not taking advantage of the fact you can copy them with the iPhone and paste them on Macbook and transcribe them? 
+Why not automating the process?
 
 ## Test it
 
